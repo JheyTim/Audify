@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Audify</string>
+    <string name="enter_name">Audio Name</string>
+    <string name="add_record">Save Audio</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="empty_list_text">No records found</string>
+    <string name="enter_desc">Description</string>
+    <string name="enter_title">Audio</string>
+    <string name="help">Help</string>
+    <string name="done">Done</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="play_recording">Play Recording</string>
+    <string name="stop_playback">Stop Playback</string>
+    <string name="help_info">1. Launch the Audify app from your Home screen. </string>
+    <string name="help_info2"> 2. Tap the Start Recording button to start the recording. </string>
+    <string name="help_info3"> 3. Tap the Stop Recording button to stop. </string>
+    <string name="help_info4"> 4. Tap the Play Recording button to playback the recording. </string>
+    <string name="help_info5"> 5. Tap the Stop Playback button to stop the playback. </string>
+    <string name="help_info7"> 7. To Modify your recordings, you can just simply tap the record from the List. There you can edit the name and the description of your record and tap Update button to save the changes or you can just simply tap Delete button to delete the record. </string>
+    <string name="help_info6"> 6. If you\'re not satisfied with your voice and you want to repeat, Tap the Start Recording button, it will rewrite the current audio file. Otherwise, tap the plus sign \"+\" button in the upper right corner next to the Help \"?\" button. The Adding of a record is to put the added record to the database itself. You can add any recording that you like and then tap Save Audio to add and save the record to the database.</string>
+</resources>

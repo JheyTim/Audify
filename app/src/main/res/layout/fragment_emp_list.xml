@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/microphone"
+        android:layout_marginTop="17dp"/>
+
+
+    <Chronometer
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/chronometer"
+        android:gravity="center"/>
+
+        <Button
+            android:text="@string/start_recording"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/startbtn"
+            android:layout_marginTop="5dp" />
+
+
+
+        <Button
+            android:text="@string/stop_recording"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stopbtn" />
+
+        <Button
+            android:text="@string/play_recording"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/playbtn" />
+
+
+        <Button
+            android:text="@string/stop_playback"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/stoprec" />
+
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_list_text"
+            android:gravity="center"
+            android:layout_marginTop="10dp"/>
+
+
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="86dp">
+        </ListView>
+
+    </LinearLayout>
+
+</ScrollView>
